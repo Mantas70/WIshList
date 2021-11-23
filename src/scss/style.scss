@@ -1,0 +1,35 @@
+@import '~bootstrap';
+li{
+  list-style: none;
+  color: #17a2b8;
+}
+.btn:not(:disabled):not(.disabled){
+  color: #4ace6c;
+  text-decoration: none;
+}
+h3{
+  color: #005cbf;
+  .btn-link {
+    color: red;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .btn-link:hover {
+    color: purple;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
+.page-header{
+  .page-link{
+    background-color: black;
+    height: 6vh;
+    border: 3px solid yellow;
+    a{
+      text-decoration: none;
+      color: red;
+      padding: 30px;
+      font-size: 30px;
+    }
+  }
+}
